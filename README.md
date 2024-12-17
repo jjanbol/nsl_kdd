@@ -1,3 +1,5 @@
+![estimator](https://raw.githubusercontent.com/jjanbol/nsl_kdd/refs/heads/main/q4_2.png)
+
 Following are the final hyper tuning parameters:
 
 1. `lr = 0.001`
