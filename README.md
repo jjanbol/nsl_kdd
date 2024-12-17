@@ -33,3 +33,10 @@ Testing with more than 10 epochs revealed diminishing returns. The model typical
 The most substantial improvememnt came from the neural network structure. My initial NN model with 3 layers reached a maximum validation accuracy of 80%. Although increasing the depth introduced higher risk of overfitting to the training data, 5 layers NN structure resulted in improved performance, raising validation accuracy to 89%.
 
 For optimizer Adam was chosen as it allows faster convergence when compared to the SGD. When using lower learning rate, the convergence was quite slow with SGD.
+
+
+Overall results:
+| Model                   | Train Accuracy | Validate Accuracy | Train Loss           | Validate Loss       | Notes              |
+|-------------------------|----------------|-------------------|----------------------|---------------------|--------------------|
+| Neural Network (No Tuning) | 97.42%         | 81.46%            | 0.1029256209731102  | 1.0464439392089844  | Without Hypertuning |
+| Neural Network (Tuned) | 99.48%         | 89.31%            | 0.017658818513154984 | 1.8183221817016602  | With Hypertuning   |
